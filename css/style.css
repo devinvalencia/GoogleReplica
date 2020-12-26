@@ -1,0 +1,42 @@
+.menu ul {
+    border: solid;
+    display: grid;
+    grid-template-columns: 80vh 60vh 78vh;
+    height: 10vh;
+    position: fixed;
+    z-index: 100;
+}
+
+.menuItem1 {
+    background-color: yellow;
+}
+
+.menuItem2 {
+    background-color: red;
+}
+
+.menuItem3 {
+    background-color: blue;
+    text-align: center;
+}
+
+.content {
+    height: 100vh;
+    background-color: green;
+    margin: 0px 0px;
+    position: relative;
+    padding: 200px 200px;
+    text-align: center;
+}
+
+.footer {
+    background-color: purple;
+    text-align: center;
+}
+
+input {
+    border-radius: 20px;
+    height: 30px;
+    width: 500px;
+    margin-top: 20px;
+}
